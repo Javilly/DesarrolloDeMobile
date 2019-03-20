@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
+
+
     string sceneToLoad;
     public static SceneChanger instance = null;
     public Slider UISlider;
@@ -21,6 +23,7 @@ public class SceneChanger : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
@@ -42,12 +45,13 @@ public class SceneChanger : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        StartCoroutine("AScene");
+        SceneManager.LoadScene("LoadingScene", LoadSceneMode.Additive);
+        StartCoroutine(AScene(sceneName));
     }
 
-    IEnumerator AScene()
+    IEnumerator AScene(string sceneToLoad)
     {
-        AsyncOperation loadingProgress = SceneManager.LoadSceneAsync("Scenes/Scene2");
+        AsyncOperation loadingProgress = SceneManager.LoadSceneAsync(sceneToLoad);
 
         while (!loadingProgress.isDone)
         {
