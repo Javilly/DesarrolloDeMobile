@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mims
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: bac3e0c623d7f1b4990091b05221142c, type: 3}
+    totalSpriteSurfaceArea: 6016197
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ddc04aa02b8b3354885ca054ed5edf4e, type: 3}
+  - {fileID: 21300000, guid: 33ec715143e16534daf88c49dbb1b811, type: 3}
+  - {fileID: 21300000, guid: 8da66882eba9b9a4197bd2a983023603, type: 3}
+  - {fileID: 21300000, guid: 57850a93a7609d241babb6af36324c39, type: 3}
+  - {fileID: 21300000, guid: e1b9e925b29458c429d48ef638b95f8a, type: 3}
+  - {fileID: 21300000, guid: 638e4e45728e033428fd4d2d17da1e52, type: 3}
+  - {fileID: 21300000, guid: 78325b7530b667547b37d283c6dd46c5, type: 3}
+  - {fileID: 21300000, guid: 790b7ce5677897447841841ad83d1652, type: 3}
+  - {fileID: 21300000, guid: 5e9dd558b419a15439f9b28357d88a09, type: 3}
+  - {fileID: 21300000, guid: 97bc820a4e1b8a041bc112887b0bbf58, type: 3}
+  - {fileID: 21300000, guid: 7dc6850b3dd9fd547a9c2179ea1b2733, type: 3}
+  - {fileID: 21300000, guid: cb9f07fb892fab94eb2ff7f232119474, type: 3}
+  - {fileID: 21300000, guid: 5e7b366d1406cb54d97200f2cbb45e3e, type: 3}
+  - {fileID: 21300000, guid: 6469b49de6b40904c9964ce685c2384a, type: 3}
+  - {fileID: 21300000, guid: d4e8bffe20cc62347a3afa8127afafc0, type: 3}
+  - {fileID: 21300000, guid: 638a200f6b04a6a4bb8e4fb0f2f2ebde, type: 3}
+  - {fileID: 21300000, guid: 15bb851fdddd94f4785deb67bbc9308f, type: 3}
+  - {fileID: 21300000, guid: 21f3061fde44f3a4fbfd39b716f09b9d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - JNtyozR
+  - descarga
+  - Two-Buttons
+  - nick-young-confused-face-300x256-nqlyaa
+  - kisspng-emote-pogchamp-twitch-tv-greenbluerup-emoticon-telegram-amp-q-5b6ddab977b385.9640468715339260734903
+  - 16426127
+  - images (1)
+  - images (2)
+  - descarga (3)
+  - maxresdefault
+  - 17g443
+  - descarga (2)
+  - Evil-Kermit
+  - Distracted-Boyfriend
+  - images
+  - descarga (1)
+  - tumblr_pgsx0d6HXK1wnn8q7_540
+  - ZEBxqIA
+  m_Tag: Mims
+  m_IsVariant: 0

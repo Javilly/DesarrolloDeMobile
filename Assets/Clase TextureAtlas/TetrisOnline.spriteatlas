@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TetrisOnline
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f302c1ae899c5b44382df1dc963709e6, type: 3}
+    totalSpriteSurfaceArea: 2835000
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1da2e320b4441f54085756d1c85aaead, type: 3}
+  - {fileID: 21300000, guid: d30250f021a65354491dba4a3e5ca0cb, type: 3}
+  - {fileID: 21300000, guid: cece8a117afaf804dae0ef1f6c85e9f0, type: 3}
+  - {fileID: 21300000, guid: e1b9f2e13c7aed34fa3743e0a2d4bdc5, type: 3}
+  - {fileID: 21300000, guid: eefb54522d4f1ed43be06e6eab0a1036, type: 3}
+  - {fileID: 21300000, guid: 89deb0d226e071840b1a4bf346b79f12, type: 3}
+  - {fileID: 21300000, guid: 0a0abd26531a40647b0f199af64194b5, type: 3}
+  - {fileID: 21300000, guid: b9e372865e860c24cb657c87b633023f, type: 3}
+  - {fileID: 21300000, guid: 6d722f878962f9844bc55e577ca3cff7, type: 3}
+  - {fileID: 21300000, guid: 6d82b5f8faa8b324880786776bc1e438, type: 3}
+  - {fileID: 21300000, guid: 9070fd1aeee85234392c281785549077, type: 3}
+  - {fileID: 21300000, guid: 8da54c2c7475c86438d4acc127690d41, type: 3}
+  - {fileID: 21300000, guid: 8e2ee5bc13cb4d344bf3bcf89552e210, type: 3}
+  - {fileID: 21300000, guid: ed5610adb178c56439d2049075150090, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Water1
+  - Grass2
+  - Grass1
+  - Cloth1
+  - Blackboard1
+  - Cloth3
+  - Wood1
+  - Circles1
+  - Wave1
+  - Drugs1
+  - Concrete1
+  - Wood2
+  - Cloth2
+  - Drugs2
+  m_Tag: TetrisOnline
+  m_IsVariant: 0
