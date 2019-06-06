@@ -25,8 +25,11 @@ public class Giroscopio : MonoBehaviour
 
     private void MoveAndDestroy(GameObject objectToMove)
     {
-        objectToMove.transform.Translate(-touchedObject.transform.right * 8);
-        Destroy(objectToMove, 2f);
+        if(touchedObject.tag == "Stick")
+        {
+            objectToMove.transform.Translate(-touchedObject.transform.right * 8);
+            Destroy(objectToMove, 2f);
+        }
     }
 
     private void Update()
