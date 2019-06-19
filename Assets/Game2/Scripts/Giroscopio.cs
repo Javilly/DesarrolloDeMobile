@@ -7,20 +7,24 @@ public class Giroscopio : MonoBehaviour
     Gyroscope gyro;
     public GameObject cube;
     public float speedMod;
-    //private Rigidbody rb;
-
     Vector2 startPos;
     float minSwipeDist = -100f;
 
+    //Raycast
     Ray ray;
     RaycastHit hit;
     GameObject touchedObject;
 
+    //GameManager
+    public GameObject gameManager;
+    GameSystem GSScript;
+
     private void Start()
     {
+        gameManager = GameObject.Find("GameManager");
         Input.gyro.enabled = true;
         gyro = Input.gyro;
-        //rb = GetComponent<Rigidbody>();
+        GSScript = gameManager.GetComponent<GameSystem>();
     }
 
     private void MoveAndDestroy(GameObject objectToMove)
@@ -88,6 +92,7 @@ public class Giroscopio : MonoBehaviour
                     Debug.Log("Touched " + touchedObject.transform.name);
 
                     MoveAndDestroy(touchedObject);
+                    GSScript.StickPicked();
                 }
             }
         }
